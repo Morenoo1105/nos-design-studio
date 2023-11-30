@@ -13,6 +13,17 @@ const config: Config = {
         fluor: "#B5FF24",
         light: "#ACACAC",
       },
+      fontFamily: {
+        manrope: ["var(--manrope)"],
+        kanit: ["var(--kanit)"],
+      },
+      backgroundImage: {
+        stroke: "url('/demoWebs/nos/stroke.png')",
+        circles: "url('/demoWebs/nos/circles.png')",
+        price1: "url('/demoWebs/nos/price1.png')",
+        price2: "url('/demoWebs/nos/price2.png')",
+        price3: "url('/demoWebs/nos/price3.png')",
+      },
     },
   },
   plugins: [],
