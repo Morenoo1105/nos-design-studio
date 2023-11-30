@@ -4,7 +4,7 @@ import { FaPaperPlane } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <nav className="mt-4 rounded-2xl border-light border-solid border-2 flex flex-row justify-between items-center px-6 py-2">
+    <nav className="my-4 rounded-2xl border-light border-solid border-2 flex flex-row justify-between items-center px-6 py-2">
       <ul className="w-full flex gap-x-3">
         {navLinks.map((link) => (
           <li key={link.id}>

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Precios = () => {
   return (
-    <section id="proyectos" className="w-full my-4">
+    <section id="proyectos" className="w-full my-4 p-14">
       <div className="w-full flex flex-col text-white font-medium px-0 py-12">
         <div className="w-full mb-10">
           <h1 className="text-4xl">/ ¿Cuál es el precio?</h1>
@@ -15,7 +15,7 @@ const Precios = () => {
           </p>
         </div>
         <div className="w-full flex flex-row justify-between">
-          <div className="relative bg-white border-white w-[28rem] h-[30rem] rounded-2xl border-solid border-2 flex flex-col overflow-hidden">
+          <div className="relative bg-white border-white w-[26rem] h-[30rem] rounded-2xl border-solid border-2 flex flex-col overflow-hidden">
             <div className="relative w-full h-auto">
               <p className="absolute bottom-0 left-0 bg-fluor w-4/6 h-1/2 rounded-e-full text-dark font-semibold flex items-center justify-start pl-6 text-xl">
                 Diseño gráfico
@@ -48,7 +48,7 @@ const Precios = () => {
               </div>
             </div>
           </div>
-          <div className="relative bg-white border-white w-[28rem] h-[30rem] rounded-2xl border-solid border-2 flex flex-col overflow-hidden">
+          <div className="relative bg-white border-white w-[26rem] h-[30rem] rounded-2xl border-solid border-2 flex flex-col overflow-hidden">
             <div className="relative w-full h-auto">
               <p className="absolute bottom-0 left-0 bg-dark w-4/6 h-1/2 rounded-e-full text-white font-semibold flex items-center justify-start pl-6 text-xl">
                 Diseño web
@@ -81,7 +81,7 @@ const Precios = () => {
               </div>
             </div>
           </div>
-          <div className="relative bg-white border-white w-[28rem] h-[30rem] rounded-2xl border-solid border-2 flex flex-col overflow-hidden">
+          <div className="relative bg-white border-white w-[26rem] h-[30rem] rounded-2xl border-solid border-2 flex flex-col overflow-hidden">
             <div className="relative w-full h-auto">
               <p className="absolute bottom-0 left-0 bg-fluor w-4/6 h-1/2 rounded-e-full text-dark font-semibold flex items-center justify-start pl-6 text-xl">
                 Startups
