@@ -64,10 +64,11 @@ const Projects = () => {
                       <div className="relative rounded-2xl w-full h-[28rem] bg-light/10">
                         <Image
                           src={selectedTab.imagen}
-                          className="rounded-2xl"
                           alt={selectedTab.tituloImagen}
-                          layout="fill"
-                          objectFit="cover"
+                          width={0}
+                          height={0}
+                          sizes="100%"
+                          className="w-full max-h-full rounded-2xl object-cover"
                         />
                       </div>
                     </div>
