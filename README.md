@@ -8,7 +8,7 @@
 
 ## Contenidos
 
-- Creado utilizando Next.js
+- Creado utilizando React con Next.js
 - Programado en TypeScript
 - Creación de componentes funcionales y reutilizables de React
 - Esctructura de archivos
