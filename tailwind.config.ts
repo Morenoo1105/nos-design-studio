@@ -24,6 +24,9 @@ const config: Config = {
         price2: "url('/demoWebs/nos/price2.png')",
         price3: "url('/demoWebs/nos/price3.png')",
       },
+      transitionProperty: {
+        maxHeight: "max-height",
+      },
     },
   },
   plugins: [],

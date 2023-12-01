@@ -94,3 +94,24 @@ export const proyectos = [
     url: "https://www.behance.net/gallery/177221343/Design-posts-templates-social-media",
   },
 ];
+
+export const precios = [
+  {
+    titulo: "Diseño gráfico",
+    img: "/demoWebs/nos/price1.png",
+    text: "Branding / Redes Sociales / Presentaciones / Diseño de Packaging / Infografías",
+    precio: "15.000₽",
+  },
+  {
+    titulo: "Diseño web",
+    img: "/demoWebs/nos/price2.png",
+    text: "Prototipado / Diseño de Landing Pages / Diseño en Tilda / Diseño de Correos Electrónicos",
+    precio: "25.000₽",
+  },
+  {
+    titulo: "Startups",
+    img: "/demoWebs/nos/price3.png",
+    text: "Paquete de empresa: Identidad Corporativa + Landing Page en 30 días",
+    precio: "85.000₽",
+  },
+];

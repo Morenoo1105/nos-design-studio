@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section className="w-full text-white font-medium border-light p-4 my-4 rounded-2xl border-solid border-2">
       <motion.div
-        className="w-full h-[400px] flex justify-center items-center"
+        className="w-full h-[calc(100vh-56px-32px-36px)] md:h-[400px] flex justify-center items-center"
         ref={constraintsRef}
       >
         <motion.div
@@ -22,16 +22,18 @@ const Hero = () => {
           <div className="absolute w-2 h-2 bg-white border-fluor border-solid border-[1px] -top-1 -right-1" />
           <div className="absolute w-2 h-2 bg-white border-fluor border-solid border-[1px] -bottom-1 -right-1" />
           <div className="absolute w-2 h-2 bg-white border-fluor border-solid border-[1px] -bottom-1 -left-1" />
-          <PiNavigationArrowFill className="text-3xl absolute fill-fluor -bottom-10 -right-10" />
+          <PiNavigationArrowFill className="text-3xl absolute fill-fluor -bottom-10 right-0 md:-right-10" />
           <div className="overflow-hidden">
-            <span className={`text-9xl font-kanit block -mb-3 -mt-4`}>
+            <span
+              className={`text-5xl sm:text-8xl md:text-9xl leading-normal font-kanit block -mb-3 -mt-4`}
+            >
               Diseño
             </span>
           </div>
         </motion.div>
       </motion.div>
 
-      <div className="flex justify-center items-center gap-6 px-36 my-6 text-light font-manrope font-bold text-xl opacity-60">
+      <div className="hidden md:flex justify-center items-center gap-6 md:px-16 lg:px-36 my-6 text-light font-manrope font-bold text-xl opacity-60">
         <div>DISEÑO</div>
         <div className="flex-1 h-1 rounded-full bg-light" />
         <div>COMO</div>
