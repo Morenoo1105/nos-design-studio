@@ -1,6 +1,6 @@
 # NOS Design Studio
 
-# Adaptación de un diseño web a una web funcional
+### Adaptación de un diseño web a una web funcional
 
 ### [Página funcional](https://morenno.net/demoWebs/nos/)
 

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { LineChart, Line, ResponsiveContainer } from "recharts";
 import { HiOutlineArrowLongDown } from "react-icons/hi2";
 

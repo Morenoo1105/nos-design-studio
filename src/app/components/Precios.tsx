@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { precios } from "../constants";
 
@@ -24,12 +23,9 @@ const PriceCard = ({ titulo, img, text, precio }: CardProps) => {
         >
           {titulo}
         </p>
-        <Image
+        <img
           src={img}
           alt=""
-          width={0}
-          height={0}
-          sizes="100%"
           className={`w-full h-auto ${
             titulo !== "Diseño web" ? "bg-dark" : "bg-fluor"
           }`}

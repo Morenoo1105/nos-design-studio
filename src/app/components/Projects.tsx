@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { proyectos } from "@/app/constants";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -62,12 +61,9 @@ const Projects = () => {
                       <p>{selectedTab.tituloImagen}</p>
 
                       <div className="relative rounded-2xl w-full h-56 sm:h-[20rem] md:h-[28rem] bg-light/10">
-                        <Image
+                        <img
                           src={selectedTab.imagen}
                           alt={selectedTab.tituloImagen}
-                          width={0}
-                          height={0}
-                          sizes="100%"
                           className="w-full h-full rounded-2xl object-cover"
                         />
                       </div>

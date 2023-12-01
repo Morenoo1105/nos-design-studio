@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { BsInstagram } from "react-icons/bs";
 
 const Contacto = () => {
