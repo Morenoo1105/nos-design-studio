@@ -1,11 +1,13 @@
 import Link from "next/link";
-import Hero from "./Components/Hero";
-import About from "./Components/About";
-import Projects from "./Components/Projects";
-import Proceso from "./Components/Proceso";
-import Precios from "./Components/Precios";
-import Contacto from "./Components/Contacto";
-import Navbar from "./Components/Navbar";
+import {
+  Hero,
+  Navbar,
+  About,
+  Projects,
+  Proceso,
+  Precios,
+  Contacto,
+} from "./components";
 
 export default function Home() {
   return (
