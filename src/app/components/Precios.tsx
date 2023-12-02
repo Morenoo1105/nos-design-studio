@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { precios } from "../constants";
+import Image from "next/image";
 
 interface CardProps {
   titulo: string;
@@ -23,12 +24,15 @@ const PriceCard = ({ titulo, img, text, precio }: CardProps) => {
         >
           {titulo}
         </p>
-        <img
+        <Image
           src={img}
           alt=""
           className={`w-full h-auto ${
             titulo !== "Diseño web" ? "bg-dark" : "bg-fluor"
           }`}
+          width={0}
+          height={0}
+          sizes="100%"
         />
       </div>
       <div className="flex flex-col justify-between w-full h-full text-dark p-6 text-base md:text-lg">

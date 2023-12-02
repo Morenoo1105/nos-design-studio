@@ -4,6 +4,7 @@ import { proyectos } from "@/app/constants";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 const Projects = () => {
   const [selectedTab, setSelectedTab] = useState(proyectos[3]);
@@ -61,10 +62,13 @@ const Projects = () => {
                       <p>{selectedTab.tituloImagen}</p>
 
                       <div className="relative rounded-2xl w-full h-56 sm:h-[20rem] md:h-[28rem] bg-light/10">
-                        <img
+                        <Image
                           src={selectedTab.imagen}
                           alt={selectedTab.tituloImagen}
                           className="w-full h-full rounded-2xl object-cover"
+                          width={0}
+                          height={0}
+                          sizes="100%"
                         />
                       </div>
                     </div>

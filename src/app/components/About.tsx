@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <section id="sobreNOS" className="relative w-full my-4 rounded-2xl">
@@ -47,10 +49,13 @@ const About = () => {
           </div>
           <div className="w-full h-full flex flex-col lg:flex-row lg:items-stretch justify-end gap-10">
             <div className="border-light w-full lg:w-[20rem] p-6 my-4 rounded-2xl border-solid border-2 bg-none lg:bg-circles bg-[length:70%] bg-no-repeat bg-[top_3rem_right_-5rem] flex flex-row lg:flex-col items-center lg:items-start gap-4 lg:gap-0 justify-start lg:justify-between">
-              <img
-                src="/nos/images/alya.png"
+              <Image
+                src="/images/alya.png"
                 className="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl border-fluor border-solid border-2"
                 alt="Alya portrait"
+                width={0}
+                height={0}
+                sizes="100%"
               />
               <div className="text-white">
                 <p className="text-2xl mb-4">Alya Kucherova</p>
@@ -61,10 +66,13 @@ const About = () => {
               </div>
             </div>
             <div className="border-light w-full lg:w-[20rem] p-6 my-4 rounded-2xl border-solid border-2 bg-none lg:bg-circles bg-[length:70%] bg-no-repeat bg-[top_3rem_right_-5rem] flex flex-row lg:flex-col items-center lg:items-start gap-4 lg:gap-0 justify-start lg:justify-between">
-              <img
-                src="/nos/images/daria.png"
+              <Image
+                src="/images/daria.png"
                 className="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl border-fluor border-solid border-2"
                 alt="Daria portrait"
+                width={0}
+                height={0}
+                sizes="100%"
               />
               <div className="text-white">
                 <p className="text-2xl mb-4">Daria Polshina</p>
@@ -78,8 +86,8 @@ const About = () => {
         </div>
       </div>
 
-      <img
-        src="/nos/images/stroke.png"
+      <Image
+        src="/images/stroke.png"
         className="hidden md:block absolute -z-10 opacity-40 -right-[15rem] top-[5rem] -rotate-[20deg]"
         alt=""
         width={750}
