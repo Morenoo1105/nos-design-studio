@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/nos",
-  // output: "export",
+  output: "export",
   images: {
     loader: "default",
     path: "/nos/images",

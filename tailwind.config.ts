@@ -18,11 +18,11 @@ const config: Config = {
         kanit: ["var(--kanit)"],
       },
       backgroundImage: {
-        stroke: "url('/demoWebs/nos/stroke.png')",
-        circles: "url('/demoWebs/nos/circles.png')",
-        price1: "url('/demoWebs/nos/price1.png')",
-        price2: "url('/demoWebs/nos/price2.png')",
-        price3: "url('/demoWebs/nos/price3.png')",
+        stroke: "url('/nos/images/stroke.png')",
+        circles: "url('/nos/images/circles.png')",
+        price1: "url('/nos/images/price1.png')",
+        price2: "url('/nos/images/price2.png')",
+        price3: "url('/nos/images/price3.png')",
       },
       transitionProperty: {
         maxHeight: "max-height",
