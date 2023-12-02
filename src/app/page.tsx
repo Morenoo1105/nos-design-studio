@@ -7,7 +7,7 @@ import {
   Proceso,
   Precios,
   Contacto,
-} from "./components";
+} from "./Components";
 
 export default function Home() {
   return (
