@@ -21,8 +21,7 @@ export default function Home() {
       <Precios />
       <Contacto />
       <div className="w-full text-light text-center my-8">
-        Diseño obtenido de{" "}
-        <br className="block sm:hidden" />
+        Diseño obtenido de <br className="block sm:hidden" />
         <Link
           href="https://www.behance.net/gallery/175320959/Landing-page-studija-dizajna-my"
           rel="noopener noreferrer"
