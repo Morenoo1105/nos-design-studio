@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/demoWebs/nos",
+  basePath: "/nos",
   output: "export",
   images: {
     loader: "default",
-    path: "/demoWebs/nos/images",
+    path: "/nos/images",
   },
 };
 

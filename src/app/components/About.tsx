@@ -48,7 +48,7 @@ const About = () => {
           <div className="w-full h-full flex flex-col lg:flex-row lg:items-stretch justify-end gap-10">
             <div className="border-light w-full lg:w-[20rem] p-6 my-4 rounded-2xl border-solid border-2 bg-none lg:bg-circles bg-[length:70%] bg-no-repeat bg-[top_3rem_right_-5rem] flex flex-row lg:flex-col items-center lg:items-start gap-4 lg:gap-0 justify-start lg:justify-between">
               <img
-                src="/demoWebs/nos/alya.png"
+                src="/nos/images/alya.png"
                 className="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl border-fluor border-solid border-2"
                 alt="Alya portrait"
               />
@@ -62,7 +62,7 @@ const About = () => {
             </div>
             <div className="border-light w-full lg:w-[20rem] p-6 my-4 rounded-2xl border-solid border-2 bg-none lg:bg-circles bg-[length:70%] bg-no-repeat bg-[top_3rem_right_-5rem] flex flex-row lg:flex-col items-center lg:items-start gap-4 lg:gap-0 justify-start lg:justify-between">
               <img
-                src="/demoWebs/nos/daria.png"
+                src="/nos/images/daria.png"
                 className="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl border-fluor border-solid border-2"
                 alt="Daria portrait"
               />
@@ -79,7 +79,7 @@ const About = () => {
       </div>
 
       <img
-        src="/demoWebs/nos/stroke.png"
+        src="/nos/images/stroke.png"
         className="hidden md:block absolute -z-10 opacity-40 -right-[15rem] top-[5rem] -rotate-[20deg]"
         alt=""
         width={750}
